@@ -14,38 +14,46 @@ You work for a consumer finance company which specialises in lending various typ
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+### Business Objective
+- This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface. 
+- Like most other lending companies, lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters’. 
+- If one is able to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.
+- In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+__There is more probability of defaulting when__
+- Borrowers are taking loan for the term 60 months
+- Borrowers who take loan amount in the range 0 to 14000
+- Borrowers whose annual income is low i.e. (0-20000)
+- Borrowers who are having home ownership as ‘Rent’ and take loan for the purpose of debt consolidation
+- Borrowers who take loan for the purpose of small business
+- Borrowers who are categorized in lower Grades i.e. F & G
+- Borrowers who are further sub-categorized in subgrades F5, G3 & G5
+- Borrowers who are given loan at interest rate in the range 15%-20%
+- Borrowers whose employee length is 1 or less and 10 or 10+ years
+- Borrowers who are from the state of NE
+- Borrowers who are verified (verification process should be made better)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- [Python](https://www.python.org/) - version 3.11.5
+- [Matplotlib](https://matplotlib.org/) - version 3.7.2
+- [Numpy](https://numpy.org/) - version 1.24.3
+- [Pandas](https://pandas.pydata.org/) - version 2.0.3
+- [Seaborn](https://seaborn.pydata.org/) - version 0.12.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@chetan1978] - feel free to contact me!
 
 
 <!-- Optional -->
